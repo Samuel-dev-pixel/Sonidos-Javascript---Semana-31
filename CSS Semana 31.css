@@ -1,0 +1,211 @@
+body{
+background-image: url(Fondo de Página 31.jpg);
+}
+.Titulo {
+	position: absolute;
+	top: 5%;
+	left: 35%;
+	width: 58%;
+	height: 20%;
+	opacity: 50%;
+	background-color: white;
+}
+.titulo-letra1{
+	position: absolute;
+	font-size: 200%;
+	top: 6.4%;
+	left: 51.7%;
+	z-index: 1;
+	font-family: Georgia;
+}
+.titulo-letra2{
+	position: absolute;
+    font-size: 150%;
+    top: 14.3%;
+    left: 53.3%;
+    z-index: 1;
+    font-family: Georgia;
+}
+.volumen{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+    opacity: 50%;
+    background-color: white;
+    width: 27%;
+    height: 20%;
+}
+.volumen-letra{
+	position: absolute;
+	font-size: 200%;
+	top: 6.4%;
+	left: 13.5%;
+	z-index: 1;
+	font-family: Georgia;
+}
+.mas{
+	position: absolute;
+	top: 14.3%;
+	left: 10%;
+	width: 5.5%;
+	height: 8%;
+	background-color: rgb(255,255,255, 0);
+	border-width: 0%;
+	border-style: none;
+	font-size: 340%;
+	z-index: 1; 
+	font-family: Georgia;
+}
+.menos{
+	position: absolute;
+	top: 14.3%;
+    left: 20.8%;
+	width: 5.5%;
+	height: 8%;
+	background-color: rgb(255,255,255, 0);
+	border-width: 0px;
+	border-style: none;
+	font-size: 340%;
+	z-index: 1;
+	font-family: Georgia;
+}
+.sonido1{
+	position: absolute;
+	top: 54.1%;
+	left: 0.2%;
+	width: 16%;
+	height: 20%;
+	border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(255,255,255, 1);
+	color: black;
+	font-size: 100%;
+	font-family: 'Cooper Black';
+}
+.pausa1{
+	position: absolute;
+	top: 68.1%;
+    left: 12%;
+    width: 3%;
+    height: 6%;
+    border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(195,195,195);
+	color: black;
+	font-size: 150%;
+	font-family: 'Bodoni MT Black';
+}
+.sonido2{
+	position: absolute;
+	top: 54.1%;
+	left: 17.75%;
+	width: 18.5%;
+	height: 20%;
+	border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(255,255,255, 1);
+	color: black;
+	font-size: 100%;
+	font-family: 'Cooper Black';
+}
+.pausa2{
+	position: absolute;
+	top: 68.1%;
+    left: 32.3%;
+    width: 3%;
+    height: 6%;
+    border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(195,195,195);
+	color: black;
+	font-size: 150%;
+	font-family: 'Bodoni MT Black';
+}
+.sonido3{
+	position: absolute;
+	top: 54.1%;
+	left: 41%;
+	width: 19%;
+	height: 20%;
+	border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(255,255,255, 1);
+	color: black;
+	font-size: 100%;
+	font-family: 'Cooper Black';
+}
+.pausa3{
+	position: absolute;
+	top: 68.1%;
+    left: 55.7%;
+    width: 3%;
+    height: 6%;
+    border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(195,195,195);
+	color: black;
+	font-size: 150%;
+	font-family: 'Bodoni MT Black';
+}
+.sonido4{
+	position: absolute;
+	top: 54.1%;
+	left: 65.8%;
+	width: 17%;
+	height: 20%;
+	border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(255,255,255, 1);
+	color: black;
+	font-size: 100%;
+	font-family: 'Cooper Black';
+}
+.pausa4{
+	position: absolute;
+	top: 68.1%;
+    left: 79%;
+    width: 3%;
+    height: 6%;
+    border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(195,195,195);
+	color: black;
+	font-size: 150%;
+	font-family: 'Bodoni MT Black';
+}
+.sonido5{
+	position: absolute;
+	top: 54.1%;
+	left: 84.85%;
+	width: 15%;
+	height: 20%;
+	border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(255,255,255);
+	color: black;
+	font-size: 100%;
+	font-family: 'Cooper Black';
+}
+.pausa5{
+	position: absolute;
+	top: 68.1%;
+    left: 96%;
+    width: 3%;
+    height: 6%;
+    border-style: none;
+	border-width: 0px;
+	border-radius: 100%;
+	background-color: rgb(195,195,195);
+	color: black;
+	font-size: 150%;
+	font-family: 'Bodoni MT Black';
+}

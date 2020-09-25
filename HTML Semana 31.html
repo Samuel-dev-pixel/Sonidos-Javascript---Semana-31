@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="CSS Semana 31.css">
+	<meta charset="utf-8">
+</head>
+<body background="Fondo de Página 31.jpg">
+	<h1 class="titulo-letra1">La Sinfonía de la Cocina</h1>
+	<h2 class="titulo-letra2">por: Samuel Cataño Cataño</h2>
+	<h1 class="volumen-letra">Volumen</h1>
+	<div class="Titulo"></div>
+	<div class="volumen"></div>
+<audio id="pista1" src="Olla2.mp3" preload loop></audio>
+<audio id="pista2" src="vaso.mp3" preload loop></audio>
+<audio id="pista3" src="cuchador.mp3" preload loop></audio>
+<audio id="pista4" src="cuchillo.mp3" preload loop></audio>
+<audio id="pista5" src="fondo.mp3" preload loop></audio>
+	<form>
+		<input type="button" onclick="masv()" name="mas" id="mas" value="+" class="mas">
+		<input type="button" onclick="menosv()" name="menos" id="menos" value="-" class="menos">
+		<input type="button" name="sonido1" id="sonido1" value="Olla chocando con su tapa" class="sonido1">
+		<input type="button" onclick="document.getElementById('pista2').play()" name="sonido2" id="sonido2" value="Vaso sacando su boca del agua" class="sonido2">
+		<input type="button" onclick="document.getElementById('pista3').play()" name="sonido3" id="sonido3" value="Cuchara chocando con tenedor" class="sonido3">
+		<input type="button" onclick="document.getElementById('pista4').play()" name="sonido4" id="sonido4" value="Cuchillo raspando un plato" class="sonido4">
+		<input type="button" onclick="document.getElementById('pista5').play()" name="sonido5" id="sonido5" value="Golpeando una olla" class="sonido5">
+		<input type="button" onclick="pausa1v()" name="pausa1" id="pausa1" value=">" class="pausa1">
+		<input type="button" onclick="pausa2v()" name="pausa2" id="pausa2" value=">" class="pausa2">
+		<input type="button" onclick="pausa3v()" name="pausa3" id="pausa3" value=">" class="pausa3">
+		<input type="button" onclick="pausa4v()" name="pausa4" id="pausa4" value=">" class="pausa4">
+		<input type="button" onclick="pausa5v()" name="pausa5" id="pausa5" value=">" class="pausa5">
+	</form>
+<script type="text/javascript" src="JS Semana 31.js"></script>
+</body>
+</html>
